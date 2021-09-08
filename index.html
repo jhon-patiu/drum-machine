@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <script src="app.js" defer></script>
+    <title>Drum Machine</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <h2 class="title">
+          jhon patiu drum machine <span class="version">v1.0</span>
+        </h2>
+      </header>
+      <!-- HEADER END -->
+      <!-- DRUM PAD UI-->
+      <div class="drum-pad">
+        <div class="key" data-key="81"><kbd>Q</kbd></div>
+        <div class="key" data-key="87"><kbd>W</kbd></div>
+        <div class="key" data-key="69"><kbd>E</kbd></div>
+        <div class="key" data-key="82"><kbd>R</kbd></div>
+        <div class="key" data-key="65"><kbd>A</kbd></div>
+        <div class="key" data-key="83"><kbd>S</kbd></div>
+        <div class="key" data-key="68"><kbd>D</kbd></div>
+        <div class="key" data-key="70"><kbd>F</kbd></div>
+        <div class="key" data-key="90"><kbd>Z</kbd></div>
+        <div class="key" data-key="88"><kbd>X</kbd></div>
+        <div class="key" data-key="67"><kbd>C</kbd></div>
+        <div class="key" data-key="86"><kbd>V</kbd></div>
+      </div>
+      <!-- DRUM PAD UI END -->
+    </div>
+    <!-- AUDIO CLIPS -->
+    <audio data-key="81" src="/sounds/deep_zap.wav"></audio>
+    <audio data-key="87" src="/sounds/lotom.wav"></audio>
+    <audio data-key="69" src="/sounds/hietom.wav"></audio>
+    <audio data-key="82" src="/sounds/giant-electrotom.wav"></audio>
+    <audio data-key="65" src="/sounds/dubby-guitar-hit.wav"></audio>
+    <audio data-key="83" src="/sounds/basspunch.wav"></audio>
+    <audio data-key="68" src="/sounds/ekick.wav"></audio>
+    <audio data-key="70" src="/sounds/bigbass.wav"></audio>
+    <audio data-key="90" src="/sounds/normal_crash.wav"></audio>
+    <audio data-key="88" src="/sounds/big_clap.wav"></audio>
+    <audio data-key="67" src="/sounds/complex_live_snare.wav"></audio>
+    <audio data-key="86" src="/sounds/nipple_snare_2.wav"></audio>
+  </body>
+</html>
