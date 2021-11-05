@@ -1,6 +1,11 @@
-# drum-machine
+# Drum machine
 
-drum machine project for FreeCodeCamp, built using html, css and vanilla javascript!
+Drum machine project for FreeCodeCamp. Really fun utilizing audio files for a project :)
 
-**DESKTOP ONLY
-live here: https://jhon-patiu.github.io/drum-machine/
+# Tech used: 
+HTML / CSS / vanilla JavaScript
+
+# Live:
+demo: https://jhon-patiu.github.io/drum-machine/
+
+*works on Desktops / Laptops only
